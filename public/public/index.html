@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5a9e4">
+<title>TotallyTapi Christmas Showdown</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="sparkle s1">✦</div><div class="sparkle s2">✧</div><div class="sparkle s3">❄</div>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-icon">🎀</span><span>TOTALLY<span class="pink">TAPI</span><small>CHRISTMAS SHOWDOWN</small></span></a>
+  <nav><a href="#leaderboard">Leaderboard</a><a href="#missions">Missions</a><a href="#rules">Rules</a></nav>
+  <div id="authArea"><a class="discord-btn" href="/auth/discord">☁ Sign in with Discord</a></div>
+</header>
+<main>
+<section class="hero">
+  <div class="hero-copy">
+    <div class="eyebrow">✧ THE COMMUNITY HOLIDAY EVENT ✧</div>
+    <h1>CHRISTMAS<br><span>SHOWDOWN</span></h1>
+    <p class="hero-sub">31 days. One community. One iPad champion.</p>
+    <p class="muted">Check in, complete missions, show up for game nights, and climb your way to the top of the TotallyTapi leaderboard.</p>
+    <div class="hero-actions"><a class="primary-btn" href="/auth/discord">LET'S COMPETE ✨</a><a class="secondary-btn" href="#leaderboard">View leaderboard</a></div>
+    <div class="date-pill">🎄 NOV 25 — DEC 25, 2026 · EASTERN TIME</div>
+  </div>
+  <div class="prize-art">
+    <div class="orbit orbit1"></div><div class="orbit orbit2"></div>
+    <div class="gift">🎁</div><div class="ipad"><small>YOUR NEW<br>HOLIDAY PRIZE</small></div>
+    <div class="prize-label">THE GRAND PRIZE</div><div class="prize-title">A FREE iPAD!</div>
+    <div class="prize-snow">❄ ✦ ❄ ✧</div>
+  </div>
+</section>
+<section class="stats">
+  <div class="stat"><strong id="daysLeft">31</strong><span>DAYS OF FUN</span></div>
+  <div class="stat"><strong>+5</strong><span>DAILY CHECK-IN</span></div>
+  <div class="stat"><strong>∞</strong><span>WAYS TO EARN</span></div>
+  <div class="stat"><strong>1</strong><span>CHRISTMAS CHAMPION</span></div>
+</section>
+<section class="section" id="how">
+  <div class="section-heading"><span class="kicker">HOW TO PLAY</span><h2>Your holiday side quest starts here</h2><p>Sign in with Discord, earn points, and let the leaderboard do the talking.</p></div>
+  <div class="steps">
+    <article class="step-card"><div class="step-icon">☁️</div><b>01 · JOIN</b><h3>Connect Discord</h3><p>Sign in with the Discord account that's in the official TotallyTapi server.</p></article>
+    <article class="step-card"><div class="step-icon">🎀</div><b>02 · CHECK IN</b><h3>Show up daily</h3><p>Complete your daily check-in and build a streak for bonus points.</p></article>
+    <article class="step-card"><div class="step-icon">🎮</div><b>03 · PLAY</b><h3>Do the missions</h3><p>Join streams, game nights, events, and surprise community challenges.</p></article>
+    <article class="step-card"><div class="step-icon">🏆</div><b>04 · WIN</b><h3>Climb the ranks</h3><p>Keep earning verified points and aim for the Christmas champion spot.</p></article>
+  </div>
+</section>
+<section class="section dashboard" id="memberPanel">
+  <div class="section-heading"><span class="kicker">YOUR PLAYER CARD</span><h2>Ready, player one?</h2><p>Sign in to check in, view your stats, and submit missions.</p></div>
+  <div id="memberCard" class="member-card"><div class="empty-state">🎮<h3>Your player stats are waiting</h3><p>Sign in with Discord to unlock your personal dashboard.</p><a class="discord-btn" href="/auth/discord">Sign in with Discord</a></div></div>
+</section>
+<section class="section" id="leaderboard">
+  <div class="section-heading"><span class="kicker">THE RACE IS ON</span><h2>Community leaderboard 🏆</h2><p>Every verified point brings you one step closer to the prize.</p></div>
+  <div class="leaderboard-wrap"><div class="table-head"><span>RANK / PLAYER</span><span>POINTS</span></div><div id="leaderRows"><div class="empty-row">The leaderboard will appear as members join the competition.</div></div><div class="table-foot">✨ Scores update when points are verified.</div></div>
+</section>
+<section class="section" id="missions">
+  <div class="section-heading"><span class="kicker">QUEST BOARD</span><h2>Missions & point menu ✨</h2><p>There is more than one way to make the nice list.</p></div>
+  <div class="points-grid">
+    <div class="point-card"><span>📅</span><div><b>Daily Discord check-in</b><small>Once per calendar day</small></div><strong>+5</strong></div>
+    <div class="point-card"><span>🔥</span><div><b>7-day check-in streak</b><small>Consecutive daily check-ins</small></div><strong>+10</strong></div>
+    <div class="point-card"><span>📺</span><div><b>Twitch stream attendance</b><small>Per 30 minutes · max 15/day</small></div><strong>+5</strong></div>
+    <div class="point-card"><span>🎮</span><div><b>Community game night</b><small>Active participation required</small></div><strong>+20</strong></div>
+    <div class="point-card"><span>💬</span><div><b>Discord event participation</b><small>Verified event attendance</small></div><strong>+15</strong></div>
+    <div class="point-card"><span>🎁</span><div><b>Weekly holiday challenge</b><small>Depends on the challenge</small></div><strong>+10–25</strong></div>
+    <div class="point-card"><span>💗</span><div><b>Help a community member</b><small>Max 10 points per week</small></div><strong>+5</strong></div>
+    <div class="point-card"><span>👑</span><div><b>Win a community mini-game</b><small>Once per event</small></div><strong>+10</strong></div>
+  </div>
+  <div class="mission-board"><div class="mission-title"><span>🎯 LIVE COMMUNITY MISSIONS</span><small>Sign in to submit a mission</small></div><div id="missionRows" class="mission-rows"><p class="muted">Active missions will appear here after an admin publishes them.</p></div></div>
+</section>
+<section class="section calendar-section">
+  <div class="section-heading"><span class="kicker">THE HOLIDAY ROADMAP</span><h2>Four weeks of festive chaos</h2></div>
+  <div class="timeline">
+    <div><i>🎄</i><b>WEEK 1 · NOV 25–DEC 1</b><h3>Holiday Kickoff</h3><p>Introductions, kickoff stream, first game night.</p></div>
+    <div><i>🍪</i><b>WEEK 2 · DEC 2–8</b><h3>Christmas Chaos</h3><p>Trivia, mystery challenges, mini-games.</p></div>
+    <div><i>🎀</i><b>WEEK 3 · DEC 9–15</b><h3>Naughty or Nice</h3><p>Community tournament and creative challenges.</p></div>
+    <div><i>❄️</i><b>WEEK 4 · DEC 16–24</b><h3>Final Countdown</h3><p>Final tournament, secret missions, streaks.</p></div>
+    <div class="finale"><i>🎁</i><b>DEC 25 · CHRISTMAS DAY</b><h3>The Christmas Finale</h3><p>Final event, leaderboard closes at 11:59 PM ET.</p></div>
+  </div>
+</section>
+<section class="section rules" id="rules">
+  <div class="section-heading"><span class="kicker">THE FINE PRINT</span><h2>House rules 📜</h2><p>Keep it fair, friendly, and festive.</p></div>
+  <div class="rules-card">
+    <ol>
+      <li>Participants must be at least 18 years old.</li>
+      <li>Participants must be members of the official TotallyTapi Discord server and sign in with that Discord account.</li>
+      <li>One daily check-in per person per Eastern calendar day. No backdated check-ins.</li>
+      <li>Follow the community guidelines and treat other contestants respectfully.</li>
+      <li>No alternate accounts, bots, fake check-ins, point manipulation, or duplicate submissions.</li>
+      <li>All event attendance, missions, and bonus points are subject to moderator verification.</li>
+      <li>Social follows are optional and do not award points. No purchase or paid subscription is required.</li>
+      <li>Moderators may correct scoring errors and review suspected abuse. Any disqualification must be based on the published rules.</li>
+      <li>The highest verified eligible point total at the close of the contest wins. Ties will be resolved through a pre-announced Christmas trivia tiebreaker.</li>
+      <li>Winner eligibility, prize model/value, delivery arrangements, eligible locations, and any applicable tax responsibilities will be stated in the final official rules before launch.</li>
+    </ol>
+    <p class="disclaimer">This promotion is hosted independently by TotallyTapi. Discord, Twitch, Instagram, TikTok, and YouTube do not sponsor, endorse, administer, or associate with this promotion.</p>
+  </div>
+</section>
+<section class="final-cta"><div>🎄 ✦ 🎁 ✦ ❄️</div><h2>Make this Christmas<br><span>one to remember.</span></h2><p>Your next check-in could be the one that puts you in first place.</p><a class="primary-btn" href="/auth/discord">JOIN THE SHOWDOWN 💗</a></section>
+<footer><b>TOTALLYTAPI 🎀</b><span>Made for the community, with holiday chaos.</span><small>Unofficial community competition · 2026</small></footer>
+</main>
+<div id="toast" class="toast" role="status"></div>
+<script src="/app.js"></script>
+</body></html>
